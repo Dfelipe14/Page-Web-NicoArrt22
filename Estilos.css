@@ -172,10 +172,11 @@ a:hover {
 }
 
 .slide img {
-    width: 160%;
+    width: 100%;
     position: relative;
-    right: 210px;
+    /* right: 210px; */
     height: 100%;
+    object-fit: cover;
     border-radius: 12px;
     /* background: #0df053; */
     text-align: center;
@@ -226,12 +227,12 @@ a:hover {
 
 .next {
     position: relative;
-    left: 830px;
+    left: 720px;
 }
 
 .prev {
     position: relative;
-    right: 820px;
+    right: 720px;
 }
 
 input:checked+.slide-container .slide {
